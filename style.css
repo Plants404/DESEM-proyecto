@@ -1,0 +1,342 @@
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e4f9f4;
+    padding-top: 100px
+}
+
+footer,
+header {
+    background-color: rgba(224, 234, 178, 0.91);
+    text-align: center;
+    padding: 10px;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 110px;
+}
+
+#novedades,
+#quienessomos,
+#contacto,
+#vivero,
+#blog,
+#tallereseducativos {
+    padding-top: 150px;
+}
+.carousel-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: start;
+}
+
+footer div:nth-child(2),
+header div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    font-size: 19px;
+}
+
+h1,
+h2,
+h4,
+li {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.links-container {
+    font-size: 27px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.nav-links:hover {
+    transform: scale(1.05);
+    border: 10px rgb(22, 59, 17) solid;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(140, 252, 125);
+}
+
+.nav-linksfooter {
+    font-size: 27px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.nav-linksfooter:hover {
+    background-color: rgb(22, 59, 17);
+    transform: scale(1.05);
+}
+
+.nav-linksfooter a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    border-radius: 20%;
+    background-color: rgb(140, 252, 125);
+    padding: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.gracias {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    max-width: 900px;
+    font-style: justify;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15x;
+    line-height: 1.5;
+}
+
+.container {
+    margin: 0rem 9rem;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0rem 2rem;
+    }
+
+    .nav-links {
+        font-size: 20px;
+        gap: 20px;
+    }
+
+    .nav-linksfooter {
+        font-size: 20px;
+        gap: 20px;
+    }
+
+    footer div:nth-child(2),
+    header div:nth-child(2) {
+        gap: 15px;
+        font-size: 15px;
+    }
+}
+    
+.main {
+    display: flex;
+    gap: 20px;
+  flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.caja {
+    width: 350px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(160, 226, 37);
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+    padding: 10px;
+}
+
+.caja:hover {
+    background-color: rgb(140, 252, 125);
+    transform: scale(1.05);
+}
+
+.caja img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding-top: 15px;
+
+}
+
+.caja img {
+    padding: 10px;
+    background-color: rgba(88, 129, 5, 0.808);
+}
+
+.caja p {
+    font-size: 15px;
+    text-align: justify;
+    margin: 0px 20px 20px 20px;
+
+}
+
+.video {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(160, 226, 37);
+    border-radius: 10%;
+}
+
+.video iframe {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(160, 226, 37);
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.video iframe:hover {
+    background-color: rgb(140, 252, 125);
+    transform: scale(1.05);
+}
+
+.video2 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(160, 226, 37);
+    border-radius: 10%;
+}
+
+.video2 iframe {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(160, 226, 37);
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.video2 iframe:hover {
+    background-color: rgb(140, 252, 125);
+    transform: scale(1.05);
+
+}
+
+.RRSS {
+    object-fit: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.icons {
+    background-color: rgb(109, 161, 12);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.mapa iframe {
+    border-radius: 10%;
+    object-fit: cover;
+    padding-top: 10px;
+    margin: 10px;
+    background-color: rgb(160, 226, 37);
+    padding: 20px;
+}
+
+.caja h2 {
+    font-size: 35px;
+    padding: 20px;
+}
+
+.caja button {
+    background-color: rgb(57, 110, 50);
+    border: none;
+    color: white;
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12%;
+    font-size: 30px;
+}
+
+.footer-content {
+    display: grid;
+}
+
+.carousel {
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(160, 226, 37);
+  padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel img {
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
