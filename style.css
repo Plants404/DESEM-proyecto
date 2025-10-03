@@ -173,7 +173,6 @@ p {
 
 .caja {
     width: 350px;
-    height: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,7 +208,7 @@ p {
 .caja p {
     font-size: 15px;
     text-align: justify;
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;;
 
 }
 
@@ -288,8 +287,8 @@ p {
 
 .icons {
     background-color: rgb(109, 161, 12);
-    padding: 5px;
-    border-radius: 50%;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .mapa iframe {
@@ -339,4 +338,25 @@ p {
     object-fit: cover;
     border-radius: 10px;
     
+}
+.Textos {
+    display: none
+}
+.quienesimg {
+    width: 450px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(160, 226, 37);
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+.quienesimg:hover {
+    background-color: rgb(140, 252, 125);
+    transform: scale(1.05);
 }

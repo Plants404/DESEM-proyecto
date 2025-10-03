@@ -3,7 +3,7 @@ function muestra_oculta(id) {
     if (div.style.display == "none") {
      div.style.display = "flex";
     }
-    else {
+    else {   
         div.style.display = "none";
     }   
 }
